@@ -1,0 +1,52 @@
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+
+<!-- 使用格式 -->
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/011.jpg" 
+/>
+<hr />
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/012.jpg" 
+/>
+<hr />
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/013.jpg" 
+/>
+<hr />
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/014.jpg" 
+/>
+<hr />
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/015.jpg" 
+/>
+<hr />
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/016.jpg" 
+/>
+<hr />
+<img class="lazy" alt="" width="640" height="480" 
+	src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1796411554,1257847298&fm=26&gp=0.jpg" 
+	data-original="./img/011.jpg" 
+/>
+<hr />
+
+<script>
+        /* 调用插件*/
+        $(function() {
+            console.log($("img.lazy"))
+            $("img.lazy").show().lazyload({
+
+                event : "click",
+                effect : "fadeIn" 
+            });
+        });
+        </script>
